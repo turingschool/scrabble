@@ -1,3 +1,4 @@
+require 'bundler'
 Bundler.require
 require './lib/scrabble'
 require 'minitest/autorun'
