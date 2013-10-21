@@ -1,5 +1,3 @@
-require 'bundler'
-Bundler.require
 require './lib/scrabble'
 
 describe Scrabble do
