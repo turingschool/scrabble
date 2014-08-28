@@ -50,4 +50,13 @@ describe Player do
       # Query player.plays and make sure 'hi' is NOT there
     end
   end
+
+  xit "it records the highest scoring word and highest score" do
+    # Create a player
+    # Play 'hi'
+    # Play 'hello'
+    # Play 'me'
+    # Check that `.highest_scoring_word` returns 'hello'
+    # Check that `.highest_word_score` return 8
+  end
 end

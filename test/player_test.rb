@@ -52,4 +52,14 @@ class PlayerTest < Minitest::Test
     # Play 'hi' and check that it returns false
     # Query player.plays and make sure 'hi' is NOT there
   end
+
+  def test_it_records_the_highest_scoring_word_and_score
+    skip
+    # Create a player
+    # Play 'hi'
+    # Play 'hello'
+    # Play 'me'
+    # Check that `.highest_scoring_word` returns 'hello'
+    # Check that `.highest_word_score` return 8
+  end
 end
