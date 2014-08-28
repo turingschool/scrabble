@@ -1,14 +1,14 @@
 require './lib/player'
 
 describe Player do
-  describe ".initialize" do
+  describe "#initialize" do
     xit "has a name" do
       player = Player.new('Alex')
       expect(player.name).to eq 'Alex'
     end
   end
 
-  describe ".plays" do
+  describe "#plays" do
     xit "starts empty" do
       player = Player.new('Alex')
       expect(player.plays).to eq []
@@ -21,7 +21,7 @@ describe Player do
     end
   end
 
-  describe ".total_score" do
+  describe "#total_score" do
     xit "starts at zero" do
       player = Player.new('Alex')
       expect(player.total_score).to eq 0
@@ -30,11 +30,11 @@ describe Player do
     xit "factors a play into the score" do
       player = Player.new('Alex')
       player.play('hello')
-      assert_equal 8, player.total_score
+      expect(player.total_score).to eq 8
     end
   end
 
-  describe ".won?" do
+  describe "#won?" do
     xit "wins with a score of 100" do
       # Create a player
       # Play 'hello' 12 times
@@ -56,7 +56,7 @@ describe Player do
     # Play 'hi'
     # Play 'hello'
     # Play 'me'
-    # Check that `.highest_scoring_word` returns 'hello'
-    # Check that `.highest_word_score` return 8
+    # Check that `#highest_scoring_word` returns 'hello'
+    # Check that `#highest_word_score` return 8
   end
 end
