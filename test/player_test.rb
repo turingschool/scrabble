@@ -26,7 +26,7 @@ class PlayerTest < Minitest::Test
     skip
     player = Player.new('Alex')
     player.play('hello')
-    assert player.plays.include?('hello')
+    assert_includes player.plays, 'hello'
   end
 
   def test_a_play_is_factored_into_score
