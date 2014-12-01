@@ -1,5 +1,5 @@
 class Scrabble
-  def self.score(word)
+  def score(word)
     0
   end
 end
