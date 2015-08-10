@@ -1,0 +1,3 @@
+class GameReader
+
+end
