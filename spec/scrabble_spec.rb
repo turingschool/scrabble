@@ -1,6 +1,6 @@
-require './lib/scrabble'
+require 'scrabble'
 
-describe Scrabble do
+RSpec.describe Scrabble do
   describe "#score" do
     xit "scores a single letter" do
       expect( Scrabble.new.score("a") ).to eq 1

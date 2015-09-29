@@ -1,5 +1,5 @@
-require './lib/player'
+require 'player'
 
-describe Player do
+RSpec.describe Player do
 
 end
