@@ -1,5 +1,5 @@
 gem 'minitest'
-require './lib/player'
+require_relative '../lib/player'
 require 'minitest/autorun'
 require 'minitest/pride'
 require 'pry'
