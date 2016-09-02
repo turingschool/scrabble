@@ -1,6 +1,6 @@
 ## Scrabble
 
-See the instructions for this workshop at http://tutorials.jumpstartlab.com/academy/workshops/scrabble.html
+See the instructions for this workshop at http://tutorials.jumpstartlab.com/academy/assessments/scrabble.html
 
 ### Setup
 
