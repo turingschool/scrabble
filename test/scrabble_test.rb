@@ -1,7 +1,7 @@
 gem 'minitest'
 require_relative '../lib/scrabble'
 require 'minitest/autorun'
-require 'minitest/emoji'
+require 'minitest/pride'
 require 'pry'
 
 class ScrabbleTest < Minitest::Test
